@@ -1,0 +1,149 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "apps", "apps", "{26551FAB-48F1-4A4E-BC74-CC8E096482C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gateway", "gateway", "{C50964A4-5DC5-4976-A2DF-B73D4D7D0F9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{BD56FF88-C6B1-4DA5-8801-6B5D21697E51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "admin", "admin", "{57F05036-5A43-48C9-9443-C13A6F172511}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{DA094933-C117-419D-91D2-C31EA25651A7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelliPort.AdminService.HttpApi.Host", "services\admin\host\IntelliPort.AdminService.HttpApi.Host\IntelliPort.AdminService.HttpApi.Host.csproj", "{69998763-2650-4744-9DA1-7B56A81D0F01}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E70B1CC8-C3E3-401D-90AE-F0DDA4A010F7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelliPort.AdminService.Application", "services\admin\src\IntelliPort.AdminService.Application\IntelliPort.AdminService.Application.csproj", "{9EF41331-E86E-4DC2-9F2A-F91EEEE1B624}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelliPort.AdminService.Application.Contracts", "services\admin\src\IntelliPort.AdminService.Application.Contracts\IntelliPort.AdminService.Application.Contracts.csproj", "{1A0C5E64-14A8-4786-8C65-ADADEB0C27E8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelliPort.AdminService.Domain", "services\admin\src\IntelliPort.AdminService.Domain\IntelliPort.AdminService.Domain.csproj", "{FE590AA2-8B80-4F1F-98ED-8C06463053D1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelliPort.AdminService.Domain.Shared", "services\admin\src\IntelliPort.AdminService.Domain.Shared\IntelliPort.AdminService.Domain.Shared.csproj", "{483F08E8-51F7-4F36-BADA-025195070759}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelliPort.AdminService.EntityFrameworkCore", "services\admin\src\IntelliPort.AdminService.EntityFrameworkCore\IntelliPort.AdminService.EntityFrameworkCore.csproj", "{2EAB39F0-00A9-49F0-8163-CBC61B717F19}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelliPort.AdminService.HttpApi", "services\admin\src\IntelliPort.AdminService.HttpApi\IntelliPort.AdminService.HttpApi.csproj", "{99EBA928-A58E-44C6-8A08-01B4ABF845B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelliPort.AdminService.HttpApi.Client", "services\admin\src\IntelliPort.AdminService.HttpApi.Client\IntelliPort.AdminService.HttpApi.Client.csproj", "{E8C0AC91-76D6-4824-B11A-3658C1DFE3F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "identity", "identity", "{B38BF1C9-DCDC-4409-9FCE-515CC8C825A2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{A90709E9-7732-474F-9819-E0D6AB751188}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{98281F7F-F220-4725-B1DD-36602D4BB4A9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "analytic", "analytic", "{9167DC3F-290E-4D08-9478-B58965B30D51}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{D882FD16-B276-41C4-B9F7-00417640ECF9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6923BCB5-4ECC-4DAB-A3CE-0CC317DE6E18}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "saas", "saas", "{476D4C43-38E3-4A97-B9FD-6848CE3720B5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "host", "host", "{AFAF9482-2712-457F-967E-914B741FD01E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{49B9932F-7A55-4B5B-985F-C51132617D6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{B785E1BD-CD35-49FC-A244-AABDFAD8B508}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D56DA8AF-46B5-4857-8A19-C4B11BB45E3E}"
+	ProjectSection(SolutionItems) = preProject
+		tye.yaml = tye.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IntelliPort.Shared.Hosting", "shared\IntelliPort.Shared.Hosting\IntelliPort.Shared.Hosting.csproj", "{72F06DFB-BA97-4440-896A-F4849F4775A7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "lib", "lib", "{FD09D02A-44E6-4D39-BE60-393B122509F5}"
+	ProjectSection(SolutionItems) = preProject
+		lib\IntelliPort.AnalyticService.Application.Contracts.dll = lib\IntelliPort.AnalyticService.Application.Contracts.dll
+		lib\IntelliPort.AnalyticService.Domain.dll = lib\IntelliPort.AnalyticService.Domain.dll
+		lib\IntelliPort.AnalyticService.Domain.Shared.dll = lib\IntelliPort.AnalyticService.Domain.Shared.dll
+		lib\IntelliPort.AnalyticService.EntityFrameworkCore.dll = lib\IntelliPort.AnalyticService.EntityFrameworkCore.dll
+		lib\IntelliPort.IdentityService.Application.Contracts.dll = lib\IntelliPort.IdentityService.Application.Contracts.dll
+		lib\IntelliPort.IdentityService.Domain.dll = lib\IntelliPort.IdentityService.Domain.dll
+		lib\IntelliPort.IdentityService.Domain.Shared.dll = lib\IntelliPort.IdentityService.Domain.Shared.dll
+		lib\IntelliPort.IdentityService.EntityFrameworkCore.dll = lib\IntelliPort.IdentityService.EntityFrameworkCore.dll
+		lib\IntelliPort.SaaSService.Application.Contracts.dll = lib\IntelliPort.SaaSService.Application.Contracts.dll
+		lib\IntelliPort.SaaSService.Domain.dll = lib\IntelliPort.SaaSService.Domain.dll
+		lib\IntelliPort.SaaSService.Domain.Shared.dll = lib\IntelliPort.SaaSService.Domain.Shared.dll
+		lib\IntelliPort.SaaSService.EntityFrameworkCore.dll = lib\IntelliPort.SaaSService.EntityFrameworkCore.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69998763-2650-4744-9DA1-7B56A81D0F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69998763-2650-4744-9DA1-7B56A81D0F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69998763-2650-4744-9DA1-7B56A81D0F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69998763-2650-4744-9DA1-7B56A81D0F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EF41331-E86E-4DC2-9F2A-F91EEEE1B624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EF41331-E86E-4DC2-9F2A-F91EEEE1B624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EF41331-E86E-4DC2-9F2A-F91EEEE1B624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EF41331-E86E-4DC2-9F2A-F91EEEE1B624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A0C5E64-14A8-4786-8C65-ADADEB0C27E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A0C5E64-14A8-4786-8C65-ADADEB0C27E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A0C5E64-14A8-4786-8C65-ADADEB0C27E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A0C5E64-14A8-4786-8C65-ADADEB0C27E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE590AA2-8B80-4F1F-98ED-8C06463053D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE590AA2-8B80-4F1F-98ED-8C06463053D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE590AA2-8B80-4F1F-98ED-8C06463053D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE590AA2-8B80-4F1F-98ED-8C06463053D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{483F08E8-51F7-4F36-BADA-025195070759}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{483F08E8-51F7-4F36-BADA-025195070759}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{483F08E8-51F7-4F36-BADA-025195070759}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{483F08E8-51F7-4F36-BADA-025195070759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EAB39F0-00A9-49F0-8163-CBC61B717F19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EAB39F0-00A9-49F0-8163-CBC61B717F19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EAB39F0-00A9-49F0-8163-CBC61B717F19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EAB39F0-00A9-49F0-8163-CBC61B717F19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99EBA928-A58E-44C6-8A08-01B4ABF845B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EBA928-A58E-44C6-8A08-01B4ABF845B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EBA928-A58E-44C6-8A08-01B4ABF845B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EBA928-A58E-44C6-8A08-01B4ABF845B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8C0AC91-76D6-4824-B11A-3658C1DFE3F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8C0AC91-76D6-4824-B11A-3658C1DFE3F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8C0AC91-76D6-4824-B11A-3658C1DFE3F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8C0AC91-76D6-4824-B11A-3658C1DFE3F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72F06DFB-BA97-4440-896A-F4849F4775A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72F06DFB-BA97-4440-896A-F4849F4775A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72F06DFB-BA97-4440-896A-F4849F4775A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72F06DFB-BA97-4440-896A-F4849F4775A7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{57F05036-5A43-48C9-9443-C13A6F172511} = {BD56FF88-C6B1-4DA5-8801-6B5D21697E51}
+		{DA094933-C117-419D-91D2-C31EA25651A7} = {57F05036-5A43-48C9-9443-C13A6F172511}
+		{69998763-2650-4744-9DA1-7B56A81D0F01} = {DA094933-C117-419D-91D2-C31EA25651A7}
+		{E70B1CC8-C3E3-401D-90AE-F0DDA4A010F7} = {57F05036-5A43-48C9-9443-C13A6F172511}
+		{9EF41331-E86E-4DC2-9F2A-F91EEEE1B624} = {E70B1CC8-C3E3-401D-90AE-F0DDA4A010F7}
+		{1A0C5E64-14A8-4786-8C65-ADADEB0C27E8} = {E70B1CC8-C3E3-401D-90AE-F0DDA4A010F7}
+		{FE590AA2-8B80-4F1F-98ED-8C06463053D1} = {E70B1CC8-C3E3-401D-90AE-F0DDA4A010F7}
+		{483F08E8-51F7-4F36-BADA-025195070759} = {E70B1CC8-C3E3-401D-90AE-F0DDA4A010F7}
+		{2EAB39F0-00A9-49F0-8163-CBC61B717F19} = {E70B1CC8-C3E3-401D-90AE-F0DDA4A010F7}
+		{99EBA928-A58E-44C6-8A08-01B4ABF845B9} = {E70B1CC8-C3E3-401D-90AE-F0DDA4A010F7}
+		{E8C0AC91-76D6-4824-B11A-3658C1DFE3F3} = {E70B1CC8-C3E3-401D-90AE-F0DDA4A010F7}
+		{B38BF1C9-DCDC-4409-9FCE-515CC8C825A2} = {BD56FF88-C6B1-4DA5-8801-6B5D21697E51}
+		{A90709E9-7732-474F-9819-E0D6AB751188} = {B38BF1C9-DCDC-4409-9FCE-515CC8C825A2}
+		{98281F7F-F220-4725-B1DD-36602D4BB4A9} = {B38BF1C9-DCDC-4409-9FCE-515CC8C825A2}
+		{9167DC3F-290E-4D08-9478-B58965B30D51} = {BD56FF88-C6B1-4DA5-8801-6B5D21697E51}
+		{D882FD16-B276-41C4-B9F7-00417640ECF9} = {9167DC3F-290E-4D08-9478-B58965B30D51}
+		{6923BCB5-4ECC-4DAB-A3CE-0CC317DE6E18} = {9167DC3F-290E-4D08-9478-B58965B30D51}
+		{476D4C43-38E3-4A97-B9FD-6848CE3720B5} = {BD56FF88-C6B1-4DA5-8801-6B5D21697E51}
+		{AFAF9482-2712-457F-967E-914B741FD01E} = {476D4C43-38E3-4A97-B9FD-6848CE3720B5}
+		{49B9932F-7A55-4B5B-985F-C51132617D6B} = {476D4C43-38E3-4A97-B9FD-6848CE3720B5}
+		{72F06DFB-BA97-4440-896A-F4849F4775A7} = {B785E1BD-CD35-49FC-A244-AABDFAD8B508}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AE27538-C7E5-4401-8CAA-6BFE2B5BAE6C}
+	EndGlobalSection
+EndGlobal

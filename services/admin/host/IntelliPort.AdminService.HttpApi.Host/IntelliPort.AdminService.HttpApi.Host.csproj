@@ -1,0 +1,96 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>IntelliPort.AdminService</RootNamespace>
+    <PreserveCompilationReferences>true</PreserveCompilationReferences>
+    <UserSecretsId>IntelliPort.AdminService-c2d31439-b723-48e2-b061-5ebd7aeb6010</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..\..\..</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\shared\IntelliPort.Shared.Hosting\IntelliPort.Shared.Hosting.csproj" />
+    <ProjectReference Include="..\..\src\IntelliPort.AdminService.HttpApi\IntelliPort.AdminService.HttpApi.csproj" />
+    <ProjectReference Include="..\..\src\IntelliPort.AdminService.Application\IntelliPort.AdminService.Application.csproj" />
+    <ProjectReference Include="..\..\src\IntelliPort.AdminService.EntityFrameworkCore\IntelliPort.AdminService.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Logs\**" />
+    <Content Remove="Logs\**" />
+    <EmbeddedResource Remove="Logs\**" />
+    <None Remove="Logs\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="IntelliPort.AdminService.Domain">
+      <HintPath>..\..\..\..\lib\IntelliPort.AdminService.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.AdminService.Domain.Shared">
+      <HintPath>..\..\..\..\lib\IntelliPort.AdminService.Domain.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.AdminService.EntityFrameworkCore">
+      <HintPath>..\..\..\..\lib\IntelliPort.AdminService.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.AdminService.HttpApi">
+      <HintPath>..\..\..\..\lib\IntelliPort.AdminService.HttpApi.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.AnalyticService.Application.Contracts">
+      <HintPath>..\..\..\..\lib\IntelliPort.AnalyticService.Application.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.AnalyticService.Domain">
+      <HintPath>..\..\..\..\lib\IntelliPort.AnalyticService.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.AnalyticService.Domain.Shared">
+      <HintPath>..\..\..\..\lib\IntelliPort.AnalyticService.Domain.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.AnalyticService.EntityFrameworkCore">
+      <HintPath>..\..\..\..\lib\IntelliPort.AnalyticService.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.IdentityService.Application.Contracts">
+      <HintPath>..\..\..\..\lib\IntelliPort.IdentityService.Application.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.IdentityService.Domain">
+      <HintPath>..\..\..\..\lib\IntelliPort.IdentityService.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.IdentityService.Domain.Shared">
+      <HintPath>..\..\..\..\lib\IntelliPort.IdentityService.Domain.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.IdentityService.EntityFrameworkCore">
+      <HintPath>..\..\..\..\lib\IntelliPort.IdentityService.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.SaaSService.Application.Contracts">
+      <HintPath>..\..\..\..\lib\IntelliPort.SaaSService.Application.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.SaaSService.Domain">
+      <HintPath>..\..\..\..\lib\IntelliPort.SaaSService.Domain.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.SaaSService.Domain.Shared">
+      <HintPath>..\..\..\..\lib\IntelliPort.SaaSService.Domain.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="IntelliPort.SaaSService.EntityFrameworkCore">
+      <HintPath>..\..\..\..\lib\IntelliPort.SaaSService.EntityFrameworkCore.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="appsettings.json" CopyToPublishDirectory="Always" />
+    <Content Update="appsettings.*.json" CopyToPublishDirectory="Never" />
+    <Content Update="appsettings.$(MSBuildThisFileName).json" CopyToPublishDirectory="PreserveNewest" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Update="Fody" Version="6.6.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

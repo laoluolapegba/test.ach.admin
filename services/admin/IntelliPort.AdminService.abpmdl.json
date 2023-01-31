@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "IntelliPort.AdminService.Domain.Shared": {
+      "path": "src/IntelliPort.AdminService.Domain.Shared/IntelliPort.AdminService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "IntelliPort.AdminService.Domain": {
+      "path": "src/IntelliPort.AdminService.Domain/IntelliPort.AdminService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "IntelliPort.AdminService.Application.Contracts": {
+      "path": "src/IntelliPort.AdminService.Application.Contracts/IntelliPort.AdminService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "IntelliPort.AdminService.Application": {
+      "path": "src/IntelliPort.AdminService.Application/IntelliPort.AdminService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "IntelliPort.AdminService.EntityFrameworkCore": {
+      "path": "src/IntelliPort.AdminService.EntityFrameworkCore/IntelliPort.AdminService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "IntelliPort.AdminService.MongoDB": {
+      "path": "src/IntelliPort.AdminService.MongoDB/IntelliPort.AdminService.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "IntelliPort.AdminService.HttpApi": {
+      "path": "src/IntelliPort.AdminService.HttpApi/IntelliPort.AdminService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "IntelliPort.AdminService.HttpApi.Client": {
+      "path": "src/IntelliPort.AdminService.HttpApi.Client/IntelliPort.AdminService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "IntelliPort.AdminService.TestBase": {
+      "path": "test/IntelliPort.AdminService.TestBase/IntelliPort.AdminService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "IntelliPort.AdminService.EntityFrameworkCore.Tests": {
+      "path": "test/IntelliPort.AdminService.EntityFrameworkCore.Tests/IntelliPort.AdminService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "IntelliPort.AdminService.MongoDB.Tests": {
+      "path": "test/IntelliPort.AdminService.MongoDB.Tests/IntelliPort.AdminService.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "IntelliPort.AdminService.Domain.Tests": {
+      "path": "test/IntelliPort.AdminService.Domain.Tests/IntelliPort.AdminService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "IntelliPort.AdminService.Application.Tests": {
+      "path": "test/IntelliPort.AdminService.Application.Tests/IntelliPort.AdminService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "IntelliPort.AdminService.HttpApi.Host": {
+      "path": "host/IntelliPort.AdminService.HttpApi.Host/IntelliPort.AdminService.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "IntelliPort.AdminService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/IntelliPort.AdminService.HttpApi.Client.ConsoleTestApp/IntelliPort.AdminService.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "IntelliPort.AdminService.AuthServer": {
+      "path": "host/IntelliPort.AdminService.AuthServer/IntelliPort.AdminService.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "IntelliPort.AdminService.Host.Shared": {
+      "path": "host/IntelliPort.AdminService.Host.Shared/IntelliPort.AdminService.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

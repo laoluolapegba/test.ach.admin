@@ -1,0 +1,7 @@
+{
+  "modules": {
+    "IntelliPort.AdminService": {
+      "path": "IntelliPort.AdminService.abpmdl.json"
+    }
+  }
+}
